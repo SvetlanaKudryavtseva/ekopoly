@@ -179,9 +179,12 @@ $APPLICATION->ShowPanel();
                                 "REGISTER_URL" => SITE_DIR."personal/",
                                 "SHOW_ERRORS" => "N",
                                 "COMPONENT_TEMPLATE" => ""
-                            ),
-                                false
-                            ); ?>
+                        	),
+                            false,
+                            array(
+                            "ACTIVE_COMPONENT" => "N"
+                            )
+                        ); ?>
                         </div>
                     </div>
                 </div>
