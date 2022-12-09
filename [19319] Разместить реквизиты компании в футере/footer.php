@@ -172,12 +172,12 @@ if ($curPage != SITE_DIR."index.php") {
                     </div>
                     <div class="col-lg-7 col-12 text-lg-left text-center mt-lg-0 mt-3">
                         <div class="row align-items-center">
-                            <div class="col-lg-6 col-12 mt-md-0 mt-3">
+                            <div class="col-lg-8 col-12 mt-md-0 mt-3">
                                 
                                 <?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/footer.php"), false);?>
                                 
                             </div>
-                            <div class="col-lg-6 col-12 mt-md-0 mt-3">
+                            <div class="col-lg-4 col-12 mt-md-0 mt-3">
                                 <?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/icons/soc_icons.php"), false);?>
                             </div>
                         </div>
