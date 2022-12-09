@@ -123,11 +123,14 @@ if ($curPage != SITE_DIR."index.php") {
                                     ),
                                     false
                                 );?>
+                                <div>
+                                    <?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/footer_requisites_t.php"), false);?>
+                                </div>
                             </div>
                             <div class="col-4" style="display: none;">
                                 <div class="title_big">
                                     <?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/footer_info_t.php"), false);?>
-                                    </div>
+                                </div>
                                 <?$APPLICATION->IncludeComponent(
                                     "bitrix:menu",
                                     "bottom_menu",
@@ -147,6 +150,9 @@ if ($curPage != SITE_DIR."index.php") {
                                     ),
                                     false
                                 );?>
+                                <div>
+                                    <?$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."include/footer_requisites_t.php"), false);?>
+                                </div>
                             </div>
                         </div>
                     </div>
